@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 export function MainNav() {
   const location = useLocation();
   return (
-    <div className="mr-4 hidden md:flex">
+    <div className="hidden md:flex md:mx-auto">
       <Link to={"/"} className="mr-6 flex items-center space-x-2">
         <span className="font-bold inline-block">{siteConfig.name}</span>
       </Link>

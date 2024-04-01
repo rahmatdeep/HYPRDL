@@ -58,7 +58,7 @@ export function MobileNav() {
           className="flex items-center"
           onOpenChange={setOpen}
         >
-          <span className="font-extrabold text-lg">{siteConfig.name}</span>
+          <span className="font-extrabold text-2xl">{siteConfig.name}</span>
         </MobileLink>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10">
           <div className="flex flex-col space-y-3">
