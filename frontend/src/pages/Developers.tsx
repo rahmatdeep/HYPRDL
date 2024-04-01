@@ -10,7 +10,7 @@ export function Developers() {
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl pb-4">
           Developers
         </h1>
-        <h3 className="scroll-m-20 text-2xl border-b font-semibold tracking-tight">
+        <h3 className="scroll-m-20 text-2xl border-b font-semibold tracking-tight pt-6">
           Uploading Files with cURL
         </h3>
         {devData.map((faq) => (
