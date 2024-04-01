@@ -53,7 +53,7 @@ export function DMCA() {
             </li>
           </ul>
           If you have found content which falls in any of these categories on
-          HYPRDL please report it at
+          HYPRDL please report it at{" "}
           <a className="underline cursor-pointer">abuse@HYPRDL.co</a>
         </p>
         <h2 className="scroll-m-20 border-b pt-4 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
