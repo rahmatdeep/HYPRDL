@@ -50,7 +50,7 @@ export function MobileNav() {
         </Button>
       </SheetTrigger>
       <span className="mx-auto md:mx-0 font-extrabold text-lg  md:mr-0 md:hidden">
-        {siteConfig.name}
+        <Link to={"/"}>{siteConfig.name}</Link>
       </span>
       <SheetContent side="left" className="pr-0">
         <MobileLink

@@ -9,12 +9,12 @@ export function Contact() {
         </h1>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           For content report:{" "}
-          <a className="cursor-pointer underline">abuse@bzzhr.co</a>
+          <a className="cursor-pointer underline">abuse@HYPRDL.co</a>
           <br />
           For support/ feature requests / bug reports: If you have a longer,
           more complicated question, or have <br />
           some feature requests or bug reports, you should contact me via email
-          at <a className="cursor-pointer underline">support@bzzhr.co.</a>
+          at <a className="cursor-pointer underline">support@HYPRDL.co.</a>
         </p>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           If you want to talk back and forth for a while, feel free to add me on

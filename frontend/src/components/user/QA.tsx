@@ -21,7 +21,7 @@ export function Code({ lines }: CodeProps) {
   return (
     <Card>
       <pre className="p-4 ">
-        <code className=" dark:selection:bg-orange-700 selection:bg-orange-400 block text-sm font-mono">
+        <code className=" dark:selection:bg-orange-700 selection:bg-orange-400 block text-sm font-mono overflow-scroll">
           {lines.map((line, index) => (
             <Fragment key={index}>
               {line}
