@@ -1,3 +1,4 @@
+import { DiscordLogo } from "./DiscordLogo";
 import { MainNav } from "./MainNav";
 import { MobileNav } from "./MobileNav";
 import { ModeToggle } from "./ModeToggle";
@@ -9,7 +10,10 @@ export function NavBar() {
         <div className=" flex h-14 max-w-screen-2xl items-center ">
           <MainNav />
           <MobileNav />
-          <ModeToggle />
+          <div className="flex gap-2">
+            <DiscordLogo />
+            <ModeToggle />
+          </div>
         </div>
       </div>
     </header>
