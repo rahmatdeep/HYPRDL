@@ -1,3 +1,3 @@
 export const siteConfig = {
-  name: "HYPRDL",
+  name: "hyprdl",
 };
