@@ -4,10 +4,10 @@ export function DMCA() {
   return (
     <>
       <Container>
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl pb-2">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl pb-4">
           Content Policy
         </h1>
-        <p className="leading-7 [&:not(:first-child)]:mt-2">
+        <p className="leading-7 [&:not(:first-child)]:mt-6 mb-4">
           The following types of content are not allowed to be shared on hyprdl.
           They will be removed when reported.
           <br />
@@ -55,10 +55,10 @@ export function DMCA() {
           hyprdl please report it at{" "}
           <a className="underline cursor-pointer">abuse@hyprdl.co</a>
         </p>
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl py-4">
-          Content Policy
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-6 pb-4">
+          Copyright Infringement
         </h1>
-        <p className="leading-7 [&:not(:first-child)]:mt-2">
+        <p className="leading-7 [&:not(:first-child)]:mt-6 mb-4">
           If you have found content which infringes on your copyright you can
           send a formal DMCA take-down request to{" "}
           <a className="cursor-pointer underline">abuse@hyprdl.co</a> and I will
@@ -81,10 +81,10 @@ export function DMCA() {
           send abuse reports to support, sales or any other e-mail address, your
           report will be ignored or delayed.
         </p>
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl py-4">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-6 pb-4">
           Disclaimer
         </h1>
-        <p className="leading-7 [&:not(:first-child)]:mt-2">
+        <p className="leading-7 [&:not(:first-child)]:mt-6">
           hyprdl cannot be held liable for any illegal or copyrighted material
           that’s uploaded by the users of this application under the Online
           Copyright Infringement Liability Limitation Act § 512(c) in the USA
