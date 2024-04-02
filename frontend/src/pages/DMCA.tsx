@@ -4,13 +4,12 @@ export function DMCA() {
   return (
     <>
       <Container>
-        <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl pb-2">
           Content Policy
-        </h2>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          The following types of content are not allowed to be shared on HYPRDL.
+        </h1>
+        <p className="leading-7 [&:not(:first-child)]:mt-2">
+          The following types of content are not allowed to be shared on hyprdl.
           They will be removed when reported.
-          <br />
           <br />
           <ul>
             <li>
@@ -19,7 +18,7 @@ export function DMCA() {
               reports we need a formal DMCA takedown request originating from
               the copyright holder or a representative. If your request is not
               valid it will be ignored. Takedown requests which are sent to any
-              other address than abuse@HYPRDL.co will also be ignored. See the
+              other address than abuse@hyprdl.co will also be ignored. See the
               chapter Copyright infringement below.
             </li>
             <li>
@@ -53,21 +52,21 @@ export function DMCA() {
             </li>
           </ul>
           If you have found content which falls in any of these categories on
-          HYPRDL please report it at{" "}
-          <a className="underline cursor-pointer">abuse@HYPRDL.co</a>
+          hyprdl please report it at{" "}
+          <a className="underline cursor-pointer">abuse@hyprdl.co</a>
         </p>
-        <h2 className="scroll-m-20 border-b pt-4 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl py-4">
           Content Policy
-        </h2>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
+        </h1>
+        <p className="leading-7 [&:not(:first-child)]:mt-2">
           If you have found content which infringes on your copyright you can
           send a formal DMCA take-down request to{" "}
-          <a className="cursor-pointer underline">abuse@HYPRDL.co</a> and I will
+          <a className="cursor-pointer underline">abuse@hyprdl.co</a> and I will
           review it. In your e-mail you need to swear under penalty of perjury
           that you (or your company) own exclusive rights to the claimed
           content. Please state the name of your organisation so the report can
           be properly categorised. The abuse mailbox relies on e-mail forwarding
-          to work. The mail is first processed by the HYPRDL server and then
+          to work. The mail is first processed by the hyprdl server and then
           forwarded to my mailbox. If your sending e-mail server has an{" "}
           <a
             href="https://en.wikipedia.org/wiki/Sender_Policy_Framework#FAIL_and_forwarding"
@@ -77,15 +76,15 @@ export function DMCA() {
           </a>{" "}
           which restricts forwarding your message will not arrive in my inbox.
           Abuse mails from repeated senders are automatically processed. This
-          only works if you send the reports to <a>abuse@HYPRDL.co</a>. Do not
+          only works if you send the reports to <a>abuse@hyprdl.co</a>. Do not
           send abuse reports to support, sales or any other e-mail address, your
           report will be ignored or delayed.
         </p>
-        <h2 className="scroll-m-20 border-b pt-4 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl py-4">
           Disclaimer
-        </h2>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          HYPRDL cannot be held liable for any illegal or copyrighted material
+        </h1>
+        <p className="leading-7 [&:not(:first-child)]:mt-2">
+          hyprdl cannot be held liable for any illegal or copyrighted material
           that’s uploaded by the users of this application under the Online
           Copyright Infringement Liability Limitation Act § 512(c) in the USA
           and the Electronic Commerce Directive 2000 Article 14 in the EU.

@@ -19,7 +19,7 @@ interface CodeProps {
 
 export function Code({ lines }: CodeProps) {
   return (
-    <Card>
+    <Card className="mt-2">
       <pre className="p-4 ">
         <code className=" dark:selection:bg-orange-700 selection:bg-orange-400 block text-sm font-mono overflow-auto">
           {lines.map((line, index) => (
