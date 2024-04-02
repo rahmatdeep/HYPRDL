@@ -7,7 +7,9 @@ export function MainNav() {
   return (
     <div className="hidden md:flex md:mr-auto">
       <Link to={"/"} className="mr-6 flex items-center space-x-2">
-        <span className="font-bold inline-block">{siteConfig.name}</span>
+        <span className="font-extrabold text-2xl inline-block">
+          {siteConfig.name}
+        </span>
       </Link>
       <nav className="flex items-center gap-4 text-sm lg:gap-6">
         <Link
@@ -63,7 +65,6 @@ export function MainNav() {
         >
           DMCA and Abuse
         </Link>
-        
       </nav>
     </div>
   );

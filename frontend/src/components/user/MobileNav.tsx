@@ -49,7 +49,7 @@ export function MobileNav() {
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <span className="mx-auto md:mx-0 font-extrabold text-lg  md:mr-0 md:hidden">
+      <span className="mx-auto md:mx-0 font-extrabold text-2xl  md:mr-0 md:hidden">
         <Link to={"/"}>{siteConfig.name}</Link>
       </span>
       <SheetContent side="left" className="pr-0">
