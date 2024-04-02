@@ -76,7 +76,8 @@ export function DMCA() {
           </a>{" "}
           which restricts forwarding your message will not arrive in my inbox.
           Abuse mails from repeated senders are automatically processed. This
-          only works if you send the reports to <a>abuse@hyprdl.co</a>. Do not
+          only works if you send the reports to{" "}
+          <a className="cursor-pointer underline">abuse@hyprdl.co</a>. Do not
           send abuse reports to support, sales or any other e-mail address, your
           report will be ignored or delayed.
         </p>
