@@ -10,7 +10,7 @@ export function NavBar() {
         <div className=" flex h-14 max-w-screen-2xl items-center ">
           <MainNav />
           <MobileNav />
-          <div className="flex gap-2">
+          <div className="flex items-center gap-4">
             <DiscordLogo />
             <ModeToggle />
           </div>
