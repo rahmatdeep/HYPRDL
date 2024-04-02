@@ -7,7 +7,7 @@ export function DMCA() {
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl pb-4">
           Content Policy
         </h1>
-        <p className="leading-7 [&:not(:first-child)]:mt-6 mb-4">
+        <div className="leading-7 [&:not(:first-child)]:mt-6 mb-4">
           The following types of content are not allowed to be shared on hyprdl.
           They will be removed when reported.
           <br />
@@ -54,7 +54,7 @@ export function DMCA() {
           If you have found content which falls in any of these categories on
           hyprdl please report it at{" "}
           <a className="underline cursor-pointer">abuse@hyprdl.co</a>
-        </p>
+        </div>
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-6 pb-4">
           Copyright Infringement
         </h1>
